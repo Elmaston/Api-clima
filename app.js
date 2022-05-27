@@ -6,7 +6,7 @@ window.addEventListener('load', ()=>{
   let temperaturaDescripcion= document.getElementById('temperatura-descripcion')
 
   let ubicacion = document.getElementById('ubicacion')
-  let iconoAnimado = document.getElementById('icono-animado')
+  let iconoAnimado = document.getElementById('icono-Animado')
 
   let vientoVelocidad = document.getElementById('Viento-velocidad')
 
@@ -53,6 +53,11 @@ window.addEventListener('load', ()=>{
                           case 'Clear':
                           iconoAnimado.src = 'animated/day.svg'
                           console.log('LIMPIO')
+                          break;
+
+                          case 'Rain':
+                          iconoAnimado.src = 'animated/rainy-6.svg'
+                          console.log('Lluvia ligera')
                           break;
 
                           
